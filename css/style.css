@@ -271,6 +271,18 @@ img {
   margin-top: var(--card-set-gap);
 }
 
+.item-icon {
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
 /* section work */
 
 .section.work {
