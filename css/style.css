@@ -146,25 +146,20 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  fill: #757575;
 }
 
 .link.head:hover,
 .link.head:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icon-mail {
   margin-right: 10px;
-
   width: 16px;
   height: 12px;
-  fill: #757575;
 }
-
-/* .icon-mail:hover,
-.icon-mail:focus {
-  color: currentColor;
-} */
 
 .icon-phone {
   margin-right: 10px;
@@ -363,22 +358,20 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 
 .icon-item a:hover,
 .icon-item a:focus {
   background-color: var(--accent-color);
+  fill: #ffffff;
 }
 
 .icon-teams {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
 }
 
-.icon-teams:hover {
-  color: #ffffff;
-}
 /* footer */
 
 .footer {
