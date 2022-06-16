@@ -352,12 +352,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin-left: -10px;
 }
 
-.icon-list .icon-item {
-  flex-basis: calc(100% / 4 -10px);
+.icon-item + .icon-item {
   margin-left: 10px;
 }
 
@@ -379,7 +376,7 @@ img {
   fill: #afb1b8;
 }
 
-.icon-item:hover {
+.icon-teams:hover {
   color: #ffffff;
 }
 /* footer */
