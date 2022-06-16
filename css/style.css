@@ -25,7 +25,6 @@ body {
   margin-right: auto;
   padding: 0 15px;
   width: 1200px;
-  /* border: 1px solid tomato; */
 }
 
 img {
@@ -49,7 +48,8 @@ img {
 .work-list,
 .teams-list,
 .footer-list,
-.jobs-list {
+.jobs-list,
+.icon-list {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -183,12 +183,8 @@ img {
 
   background-color: var(--third-background-color);
   text-align: center;
-  background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4),
-    url(../images/bgc.jpg)
-  );
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: url(../images/bgc.jpg);
 }
 
 .service-title {
@@ -346,12 +342,46 @@ img {
 
 .teams-description {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
 }
 
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.icon-list .icon-item {
+  flex-basis: calc(100% / 4 -10px);
+  margin-left: 10px;
+}
+
+.icon-item a {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-item a:hover,
+.icon-item a:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-teams {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.icon-item:hover {
+  color: #ffffff;
+}
 /* footer */
 
 .footer {
